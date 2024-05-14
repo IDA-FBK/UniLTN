@@ -1,0 +1,16 @@
+Epoch 0: Sat Level 0.477
+Epoch 200: Sat Level 0.594
+Epoch 400: Sat Level 0.618
+Epoch 600: Sat Level 0.637
+Epoch 800: Sat Level 0.670
+Epoch 1000: Sat Level 0.837
+Epoch 1200: Sat Level 0.839
+Epoch 1400: Sat Level 0.839
+Epoch 1600: Sat Level 0.839
+Epoch 1800: Sat Level 0.839
+Epoch 2000: Sat Level 0.839
+Epoch 2200: Sat Level 0.839
+Epoch 2400: Sat Level 0.839
+Epoch 2600: Sat Level 0.839
+Epoch 2800: Sat Level 0.839
+Training finished at Epoch 2999 with Sat Level 0.839

@@ -1,0 +1,8 @@
+q1: forall a,b,c: (Ancestor(a,b) & Parent(b,c)) -> Ancestor (a, c) = 0.850
+
+q2: forall a,b: Ancestor(a,b) -> ~Ancestor(b,a) = 1.000
+
+q3: forall a,b,c: (Parent(a,b) & Parent(b,c)) -> Ancestor(a,c) = 0.862
+
+q4: forall a,b,c: (Ancestor(a,b) & Ancestor(b,c)) -> Ancestor(a,c) = 0.862
+
