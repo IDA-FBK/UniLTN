@@ -1,4 +1,0 @@
-Epoch 0: Sat Level 0.493
-Epoch 200: Sat Level 0.633
-Epoch 400: Sat Level 0.705
-Training finished at Epoch 499 with Sat Level 0.750

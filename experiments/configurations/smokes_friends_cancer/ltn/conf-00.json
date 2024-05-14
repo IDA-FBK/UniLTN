@@ -1,7 +1,7 @@
 {
   "data_seed": 0,
   "exp_seed": 0,
-  "epochs": 1000,
+  "epochs": 2000,
   "batch_size": 64,
   "learning_rate": 0.001,
   "optimizer": "adam",
@@ -20,5 +20,5 @@
       "pmean": {}
     }
   },
-  "track_metrics": 50
+  "track_metrics": 200
 }
