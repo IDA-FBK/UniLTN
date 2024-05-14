@@ -1,0 +1,12 @@
+{
+  "data_seed": 0,
+  "exp_seed": 0,
+  "epochs": 500,
+  "batch_size": 64,
+  "learning_rate": 0.0005,
+  "optimizer": "adam",
+  "operators": {
+    "ltn-forall": {"p": 2}
+  },
+  "track_metrics": 50
+}

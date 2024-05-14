@@ -1,0 +1,20 @@
+{
+  "data_seed": 0,
+  "exp_seed": 0,
+  "epochs": 1000,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "optimizer": "adam",
+  "nr_samples": 100,
+  "nr_train_samples": 50,
+  "operators": {
+    "ltn-and":{},
+    "ltn-or": {},
+    "ltn-not": {},
+    "ltn-implies": {},
+    "ltn-forall": {"p": 2},
+    "ltn-exists": {"p":2},
+    "ltn-fagg": {"pmean":{},"p":2}
+  },
+  "track_metrics": 1
+}

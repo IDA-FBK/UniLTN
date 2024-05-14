@@ -1,0 +1,12 @@
+{
+  "exp_seed": 0,
+  "epochs": 500,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "optimizer": "adam",
+  "operators": {
+    "uniltn-forall": {"p": 2},
+    "uniltn-fagg": {"pmean":{}, "p":2}
+  },
+  "track_metrics": 20
+}

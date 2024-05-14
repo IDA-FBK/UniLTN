@@ -1,0 +1,15 @@
+{
+  "exp_seed": 1,
+  "epochs": 1000,
+  "learning_rate": 0.001,
+  "optimizer": "sgd",
+  "operators": {
+    "uniltn-and":{},
+    "uniltn-not": {},
+    "uniltn-implies": {},
+    "uniltn-forall": {},
+    "uniltn-exists": {"p": 10},
+    "uniltn-fagg": {"mean": {}}
+  },
+  "track_metrics": 100
+}

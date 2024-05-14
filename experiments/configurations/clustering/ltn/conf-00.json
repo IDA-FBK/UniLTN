@@ -1,0 +1,18 @@
+{
+  "data_seed": 0,
+  "exp_seed": 0,
+  "epochs": 1000,
+  "learning_rate": 0.001,
+  "optimizer": "adam",
+  "operators": {
+    "ltn-and":{},
+    "ltn-or": {},
+    "ltn-not": {},
+    "ltn-implies": {},
+    "ltn-equiv": {"prod": {}, "reichen":{}},
+    "ltn-forall": {"p":4},
+    "ltn-exists": {"p":6},
+    "ltn-fagg": {"pmean":{}, "p":2}
+  },
+  "track_metrics": 100
+}

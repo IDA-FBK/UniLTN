@@ -1,0 +1,15 @@
+{
+  "exp_seed": 1,
+  "epochs": 1000,
+  "learning_rate": 0.001,
+  "optimizer": "sgd",
+  "operators": {
+    "ltn-and":{},
+    "ltn-not": {},
+    "ltn-implies": {},
+    "ltn-forall": {},
+    "ltn-exists": {"p": 10},
+    "ltn-fagg": {"mean": {}}
+  },
+  "track_metrics": 100
+}

@@ -1,0 +1,12 @@
+{
+  "exp_seed": 1,
+  "epochs": 20,
+  "learning_rate": 0.001,
+  "optimizer": "adam",
+  "operators": {
+    "ltn-and": {},
+    "ltn-forall": {},
+    "ltn-exists": {}
+  },
+  "track_metrics": 1
+}

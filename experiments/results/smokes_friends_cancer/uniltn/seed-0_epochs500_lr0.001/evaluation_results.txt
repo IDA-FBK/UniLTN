@@ -1,0 +1,7 @@
+forall p: ~Friends(p,p) : 0.91
+forall p,q: Friends(p,q) -> Friends(q,p) : 0.68
+forall p: exists q: Friends(p,q) : 0.65
+forall p,q: Friends(p,q) -> (Smokes(p)->Smokes(q)) : 0.71
+forall p: Smokes(p) -> Cancer(p) : 0.73
+forall p: Cancer(p) -> Smokes(p): 0.82
+forall p,q: (Cancer(p) or Cancer(q)) -> Friends(p,q): 0.28

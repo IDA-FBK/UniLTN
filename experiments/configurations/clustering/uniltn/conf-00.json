@@ -1,0 +1,18 @@
+{
+  "data_seed": 0,
+  "exp_seed": 0,
+  "epochs": 1000,
+  "learning_rate": 0.001,
+  "optimizer": "adam",
+  "operators": {
+    "uniltn-and":{},
+    "uniltn-or": {},
+    "uniltn-not": {},
+    "uniltn-implies": {},
+    "uniltn-equiv": {"prod": {}, "reichen":{}},
+    "uniltn-forall": {"p":4},
+    "uniltn-exists": {"p":6},
+    "uniltn-fagg": {"pmean":{}, "p":2}
+  },
+  "track_metrics": 100
+}
